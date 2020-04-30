@@ -5,8 +5,8 @@
 "4","Água Azul do Norte",1,0,0
 "5","Alenquer",2,0,0
 "6","Almeirim",2,1,50
-"7","Altamira",12,0,0
-"8","Ananindeua",297,11,3.7
+"7","Altamira",14,0,0
+"8","Ananindeua",306,11,3.59
 "9","Anapu",7,0,0
 "10","Augusto Corrêa",12,1,8.33
 "11","Aurora do Pará",4,0,0
@@ -14,21 +14,21 @@
 "13","Baião",2,0,0
 "14","Bannach",2,0,0
 "15","Barcarena",17,1,5.88
-"16","Belém",1641,136,8.29
-"17","Benevides",31,2,6.45
+"16","Belém",1658,139,8.38
+"17","Benevides",32,3,9.38
 "18","Bom Jesus do Tocantins",1,0,0
 "19","Bonito",3,0,0
 "20","Bragança",35,4,11.43
 "21","Breves",35,6,17.14
 "22","Bujaru",8,1,12.5
 "23","Cachoeira do Arari",7,1,14.29
-"24","Cametá",11,1,9.09
+"24","Cametá",11,2,18.18
 "25","Canaã dos Carajás",4,1,25
 "26","Capanema",26,2,7.69
 "27","Capitão Poço",3,0,0
 "28","Castanhal",86,3,3.49
 "29","Colares",1,0,0
-"30","Conceição do Araguaia",1,0,0
+"30","Conceição do Araguaia",2,0,0
 "31","Concórdia do Pará",3,0,0
 "32","Curionópolis",1,1,100
 "33","Curralinho",5,0,0
@@ -39,17 +39,17 @@
 "38","Igarapé-Açu",12,1,8.33
 "39","Igarapé-Miri",5,1,20
 "40","Inhangapi",4,0,0
-"41","Ipixuna do Pará",3,0,0
+"41","Ipixuna do Pará",4,0,0
 "42","Irituia",3,0,0
 "43","Itaituba",7,0,0
-"44","Jacundá",1,0,0
+"44","Jacundá",4,0,0
 "45","Juruti",5,2,40
 "46","Limoeiro do Ajuru",2,1,50
 "47","Mãe do Rio",5,0,0
 "48","Marabá",36,6,16.67
 "49","Maracanã",10,1,10
 "50","Marapanim",8,1,12.5
-"51","Marituba",44,1,2.27
+"51","Marituba",45,1,2.22
 "52","Melgaço",1,0,0
 "53","Mocajuba",4,0,0
 "54","Moju",1,0,0
@@ -65,7 +65,7 @@
 "64","Ourém",5,0,0
 "65","Ourilândia do Norte",2,0,0
 "66","Pacajá",2,0,0
-"67","Paragominas",27,3,11.11
+"67","Paragominas",30,3,10
 "68","Parauapebas",67,6,8.96
 "69","Peixe-Boi",1,0,0
 "70","Ponta de Pedras",10,3,30
@@ -76,10 +76,10 @@
 "75","Redenção",2,0,0
 "76","Rondon do Pará",2,1,50
 "77","Salinópolis",10,0,0
-"78","Salvaterra",5,1,20
+"78","Salvaterra",8,1,12.5
 "79","Santa Bárbara do Pará",8,1,12.5
 "80","Santa Cruz do Arari",5,1,20
-"81","Santa Izabel do Pará",56,1,1.79
+"81","Santa Izabel do Pará",61,1,1.64
 "82","Santa Maria do Pará",4,0,0
 "83","Santarém",76,6,7.89
 "84","Santo Antônio do Tauá",38,2,5.26
@@ -92,11 +92,11 @@
 "91","São João do Araguaia",1,1,100
 "92","São Miguel do Guamá",24,2,8.33
 "93","São Sebastião da Boa Vista",7,0,0
-"94","Tailândia",10,0,0
+"94","Tailândia",11,0,0
 "95","Terra Alta",7,0,0
-"96","Tomé-Açu",3,0,0
-"97","Tracuateua",1,0,0
-"98","Tucumã",8,0,0
+"96","Tomé-Açu",4,0,0
+"97","Tracuateua",2,0,0
+"98","Tucumã",9,0,0
 "99","Tucuruí",11,0,0
 "100","Vigia",26,1,3.85
 "101","Viseu",2,1,50

@@ -33,7 +33,7 @@ remote_driver$open()
 
 
 
-#--- Endere?o para o browser acessar
+#--- Endereco para o browser acessar
 
 remote_driver$navigate("https://www.covid-19.pa.gov.br/#/")
 

@@ -3,6 +3,7 @@ require(tidyverse)
 require(XML)
 require(httr)
 require(rvest)
+require(lubridate)
 
 #--- Thanks to:
 # https://stackoverflow.com/questions/55201226/session-not-created-this-version-of-chromedriver-only-supports-chrome-version-7/55201365
@@ -32,7 +33,7 @@ remote_driver$open()
 
 
 
-#--- Endereço para o browser acessar
+#--- Endere?o para o browser acessar
 
 remote_driver$navigate("https://www.covid-19.pa.gov.br/#/")
 
@@ -46,11 +47,15 @@ html <- remote_driver$getPageSource()[[1]]
 doc <- htmlParse(html)
 tabelas <- readHTMLTable(doc)
 
+dia = day(Sys.Date())
+mes = month(Sys.Date())
+ano = year(Sys.Date())
+
 
 tabelas[[2]] %>%
-  `colnames<-` (c("Município", "Confirmados", "Óbitos", "Letalidade")) %>%
-  select(Município, Confirmados, Óbitos) %>%
-  mutate(Confirmados = as.numeric(paste(Confirmados)),
-         Óbitos = as.numeric(paste(Óbitos)),
-         Letalidade = round(x = Óbitos/Confirmados*100, digits = 2)) %>%
-  xlsx::write.xlsx(x = ., file = "Casos acumulados por municipio.xlsx")
+  `colnames<-` (c("municipio", "confirmados", "obitos", "letalidade")) %>%
+  select(municipio, confirmados, obitos) %>%
+  mutate(confirmados = as.numeric(paste(confirmados)),
+         obitos = as.numeric(paste(obitos)),
+         letalidade = round(x = obitos/confirmados*100, digits = 2)) %>%
+  write.csv(x = ., file = paste0("R_Scrapping_SESPA_Tabela/Casos_Acumulados_por_Municipio", dia, mes, ano, ".csv"))
